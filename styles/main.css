@@ -1,68 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.center{
-    align-items: center;
+.center {
+  align-items: center;
 }
 
-.bg{
-    background-image: url("https://cdn.dribbble.com/users/1770290/screenshots/6164788/media/8aef3105d61491c1f23e0dd6e403bd5b.gif");
-    background-attachment: fixed;
-    background-size: cover; 
+.bg {
+  background-image: url("https://cdn.dribbble.com/users/1770290/screenshots/6164788/media/8aef3105d61491c1f23e0dd6e403bd5b.gif");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.titulo{
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 50px;
-    margin-left: 15px;
-    color: rgb(255, 255, 255);
+.titulo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 50px;
+  margin-left: 15px;
+  color: rgb(255, 255, 255);
 }
 
-.subtitulo{
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 35px;
-    margin-left: 15px;
-    color: rgb(255, 255, 255);
+.subtitulo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+  margin-left: 15px;
+  color: rgb(255, 255, 255);
 }
 
-.parrafo{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
-    margin: 15px;
-    color: rgb(255, 255, 255);
+.parrafo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  margin: 15px;
+  color: rgb(255, 255, 255);
 }
 
-.sobre_mi{
-    display: flex;
-    align-items: center;
-    border: 3px solid rgba(255, 255, 255, 0.597);
-    border-radius: 20px;
-    width: 50%;
-    background-color: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.593);
+.sobre_mi {
+  align-items: center;
+  border: 3px solid rgba(255, 255, 255, 0.597);
+  border-radius: 20px;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.593);
 }
 
-.img{
-    margin: 20px;
-    border-radius: 50%;
-    width: 30%;
-    margin-left: 30px;
-    box-shadow: 0 0 20px rgba(79, 79, 79, 0.553);
+.img {
+  margin: 20px;
+  border-radius: 50%;
+  width: 20%;
+  margin-left: 30px;
+  box-shadow: 0 0 20px rgba(79, 79, 79, 0.553);
 }
 
 hr {
-    height: 3px;
-    border-color: transparent;
-    background-color: rgba(255, 255, 255, 0.471);
-    backdrop-filter: blur(20px);
-    width: 20%;
-  }
-  
+  height: 3px;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 0.597);
+  backdrop-filter: blur(20px);
+  width: 20%;
+}
 
-
+ul {
+  list-style-position: inside; 
+  padding-left: 0;
+}
