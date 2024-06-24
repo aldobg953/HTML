@@ -38,7 +38,6 @@
 }
 
 .sobre_mi {
-  align-items: center;
   border: 3px solid rgba(255, 255, 255, 0.597);
   border-radius: 20px;
   width: 50%;
@@ -48,10 +47,9 @@
 }
 
 .img {
-  margin: 20px;
+  margin: 5px;
   border-radius: 50%;
   width: 20%;
-  margin-left: 30px;
   box-shadow: 0 0 20px rgba(79, 79, 79, 0.553);
 }
 
@@ -61,6 +59,7 @@ hr {
   background-color: rgba(255, 255, 255, 0.597);
   backdrop-filter: blur(20px);
   width: 20%;
+  border-radius: 2rem;
 }
 
 ul {
